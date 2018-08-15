@@ -8,5 +8,10 @@
  *
  * Main module of the application.
  */
+ 
+   angular.module('legoBricks', []);
+	
+	angular.module('legoBricks');
+		
 angular
-  .module('newModuleQuizApp', []);
+  .module('newModuleQuizApp', ['legoBricks'])
